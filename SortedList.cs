@@ -12,9 +12,6 @@ namespace SortedDoublyLinkedList
 
         public void Insert(T value)
         {
-            if (value.Equals(1))
-            {
-            }
             Node<T> newNode = new Node<T>(value);
 
 
